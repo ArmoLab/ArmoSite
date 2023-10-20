@@ -31,3 +31,11 @@ html {
     height: 100%;
     overflow: hidden;
 }
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+}
