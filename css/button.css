@@ -1,0 +1,19 @@
+jiaru {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #495057;
+  background: #495057;
+}
+.jiaru:hover {
+  background: #fff;
+  color: #495057
+}
