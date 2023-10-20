@@ -15,3 +15,11 @@
 h1, h3 {
     color: #fff;
 }
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
