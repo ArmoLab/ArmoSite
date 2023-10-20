@@ -17,3 +17,10 @@
   background: #fff;
   color: #495057
 }
+@media screen and (max-width: 768px) {
+    .jiaru {
+        min-width: 500px;
+        height: 120px;
+        font-size: 80px;
+    }
+}
