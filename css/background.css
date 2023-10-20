@@ -1,0 +1,14 @@
+.bg {
+    background-image: url("https://cn.bing.com//th?id=OHR.PygmySloth_ZH-CN4739853522_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp&PC=EMMX01");
+    background-size: cover;
+    text-align: center;
+    ackground-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    height: 100vh;
+}
