@@ -1,13 +1,27 @@
 .bg {
-    background-image: url("https://cn.bing.com//th?id=OHR.PygmySloth_ZH-CN4739853522_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp&PC=EMMX01");
+    background-image: linear-gradient(28deg, #bc0547, #383ef0);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-position: center center;
 }
 h1, h3 {
-    color: #fff;
+    color: #ccc;
 }
+@media (min-width: 769px) {
+    h1 {
+        font-size: 60px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: #ccc;
+    }
+}
+    h3 {
+        font-size: 30px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: #ccc;
+    }
 body {
     text-align: center;
     display: flex;
@@ -18,6 +32,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    font-family: Apple,sans-serif;
 }
 html {
     width: 100%;
