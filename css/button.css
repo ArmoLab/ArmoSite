@@ -18,19 +18,40 @@
   color: #495057
 }
 @media screen and (max-width: 768px) {
-    .jiaru {
-        min-width: 180px;
-        height: 90px;
-        color: #fff;
-        padding: 5px 10px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-        border-radius: 20px;
-        border: 2px solid #495057;
-        background: #495057;
-    }
+  .jiaru {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #495057;
+  color: #495057;
+}
+.css-button-sliding-to-left--grey:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--grey:hover:after {
+  width: 100%;
+}
+.jiaru:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #495057;
+}
+
 }
