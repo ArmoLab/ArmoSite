@@ -18,7 +18,7 @@
   color: #495057
 }
 @media screen and (max-width: 768px) {
-  .jiaru {
+  .yidongduan {
   min-width: 130px;
   height: 40px;
   color: #fff;
@@ -37,13 +37,13 @@
     
   color: #495057;
 }
-.jiaru:hover {
-  color: #fff;
+.yidongduan:hover {
+   color: #fff;
 }
-.jiaru:hover:after {
+.yidongduan:hover:after {
   width: 100%;
 }
-.jiaru:after {
+.yidongduan:after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -54,5 +54,4 @@
   height: 100%;
   background: #495057;
 }
-
 }
