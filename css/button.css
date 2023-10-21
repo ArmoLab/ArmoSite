@@ -34,12 +34,13 @@
   background: #fff;
   overflow: hidden;
   border: 2px solid #495057;
+    
   color: #495057;
 }
-.css-button-sliding-to-left--grey:hover {
+.jiaru:hover {
   color: #fff;
 }
-.css-button-sliding-to-left--grey:hover:after {
+.jiaru:hover:after {
   width: 100%;
 }
 .jiaru:after {
