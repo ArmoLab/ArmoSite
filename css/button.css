@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 768px) {
     .jiaru {
-        min-width: 250px;
+        min-width: 180px;
         height: 90px;
         color: #fff;
         padding: 5px 10px;
