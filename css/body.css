@@ -9,7 +9,7 @@ h3 {
     font-size: xx-large;
     color: white;
 }
-@keyframes textGradient {
+@-webkit-keyframes textGradient {
   0% {
     background-position: 0% 50%;
   }
