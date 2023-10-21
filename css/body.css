@@ -11,15 +11,6 @@
     align-items: center;
     background-position: center center;
     height: 100vh;
-    filter: blur(10px);
-.zhezhao {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
 }
 h1, h3 {
     color: #fff;
