@@ -9,12 +9,25 @@ h3 {
     font-size: xx-large;
     color: white;
 }
-h1{
-    font-size: 80px;
-    background-image: linear-gradient(45deg, #4d688f, #dea7cf);
-    background-clip: text;
-    color: transparent;
-    -webkit-background-clip: text;
+@keyframes textGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-size: 80px;
+  background-image: linear-gradient(45deg, #4d688f, #dea7cf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: textGradient 5s linear infinite;
 }
 body {
     text-align: center;
