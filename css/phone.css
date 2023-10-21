@@ -1,0 +1,17 @@
+.pch1 {
+    font-size: 80px;
+}
+
+.pch3 {
+    font-size: xx-large;
+}
+
+@media (max-width: 768px) {
+    .pch1 {
+        font-size: 40px;
+    }
+
+    .pch3 {
+        font-size: 25px;
+    }
+}
